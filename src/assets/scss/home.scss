@@ -1,0 +1,139 @@
+.home {
+	 .el-row {
+	    margin-bottom: 20px;
+	    &:last-child {
+	      margin-bottom: 0;
+	    }
+	  }
+	  .el-col {
+	    border-radius: 4px;
+	  }
+
+	  .number {
+	  	display: flex;
+	  	flex-wrap: wrap;/* 让弹性盒元素在必要的时候拆行 */
+	  	justify-content: space-between;
+	  		  	
+	  	.el-card {
+	  		width: 32%;
+				margin-bottom: 10px;
+	  		.el-card__body {
+	  			padding: 0px;  				
+	  		}  		
+	  	} 
+		}
+		
+	.left {
+		float: left;
+		display: inline-block;
+		height: 80px;
+		width: 20%;
+		background-color: rgb(32,177,200);
+		font-size: 30px;
+		color: white;
+		i {
+				display: inline-block;
+				height: 50px;
+				width: 50px;
+				position: relative;
+				top: -39px;
+		}
+	}
+	.right {
+		display: inline-block;
+		float: left;
+		height: 80px;
+		p {
+			text-align: left;
+		}
+		.order {
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 14px;
+			
+			color: #848484;
+			padding: 10px 0px 0px 10px;
+			letter-spacing: 3px;	
+		}
+		.price {
+			font-size: 27px;
+			font-weight: 400;
+			line-height: 27px;
+			text-align: center;
+			padding: 18px 10px 0px;
+			color: #303133;
+		}
+		
+	}
+	
+	.graph {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+			height: calc(100vh - 560px);
+			
+			.el-card__body {
+				padding: 0;
+			}
+			
+		}
+	.graph .el-card {
+		width: 49%;
+		
+	}
+	
+	.middle {
+		.el-card__body {
+			padding: 0;
+		}
+	}
+
+
+}
+
+.top {
+	display: flex;
+	/* flex中的垂直居中 */
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #b6b6b6;
+	img {
+		height: 100px;
+		
+		margin-right: 20px;
+	}
+	p {
+		line-height: 35px;
+		text-align: left; /* 左对齐 */
+		font-size: 16px;
+		color: #b6b6b6;
+	}
+	.name {
+		font-size: 30px;
+		color: #555555;
+	}
+
+}
+
+.bottom {
+	margin-top: 10px;
+	p {
+		line-height: 35px;
+		text-align: left; /* 左对齐 */
+		font-size: 14px;
+		color: #b6b6b6;
+	}
+}
+
+.tabledata {
+	.el-table td, .el-table th.is-leaf {
+		line-height: 10px;
+		
+	}
+	.el-table td, .el-table th {
+		padding: 0;
+		height: 50px;
+		
+	}
+	 
+}
