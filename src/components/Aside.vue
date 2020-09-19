@@ -78,7 +78,7 @@
 				})
 			},
 			collapse() {
-				console.log(this.$store.state.tab.collapse)
+			
 				return this.$store.state.tab.collapse;
 			}
 
@@ -96,7 +96,7 @@
 				console.log(key, keyPath);
 			},
 			iscollapse() {
-				console.log(this.$store.state.tab.collapse)
+				
 				return this.$store.state.tab.collapse
 			}
 		}

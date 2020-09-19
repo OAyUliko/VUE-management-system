@@ -10,9 +10,9 @@ export default {
           vue: Mock.Random.float(500, 8000, 0, 2),
           wechat: Mock.Random.float(500, 8000, 0, 2),
           ES6: Mock.Random.float(500, 8000, 0, 2),
-/*          Redis: Mock.Random.float(500, 8000, 0, 2),
+          Redis: Mock.Random.float(500, 8000, 0, 2),
           React: Mock.Random.float(500, 8000, 0, 2),
-          springboot: Mock.Random.float(500, 8000, 0, 2) */
+          springboot: Mock.Random.float(500, 8000, 0, 2) 
         })
       )
     }
